@@ -11,6 +11,8 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   output: "server",
   adapter: vercel(),
+  site: 'https://sayayinR.github.io',
+  base: 'astro-shopify',
   integrations: [
     tailwind({
       config: {
