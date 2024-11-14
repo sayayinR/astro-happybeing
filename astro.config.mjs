@@ -1,16 +1,17 @@
 import { defineConfig } from "astro/config";
-import vercel from "@astrojs/vercel/serverless";
-
 // https://astro.build/config
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 import svelte from "@astrojs/svelte";
 
+import netlify from '@astrojs/netlify';
+
+
 // https://astro.build/config
 export default defineConfig({
-  output: "static",
-  //adapter: vercel(),
+  output: "server",
+  adapter: netlify(),
   site: 'https://sayayinR.github.io',
   base: 'astro-happybeing',
   integrations: [
