@@ -12,8 +12,6 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   output: "server",
   adapter: netlify(),
-  site: 'https://sayayinR.github.io',
-  base: '/',
   integrations: [
     tailwind({
       config: {
