@@ -13,7 +13,7 @@ export default defineConfig({
   output: "server",
   adapter: netlify(),
   site: 'https://sayayinR.github.io',
-  base: 'astro-happybeing',
+  base: '/',
   integrations: [
     tailwind({
       config: {
