@@ -12,7 +12,6 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   output: "server",
   adapter: netlify(),
-  base: 'astro-happybeing',
   integrations: [
     tailwind({
       config: {
