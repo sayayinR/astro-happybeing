@@ -31,3 +31,53 @@
     @apply disabled:cursor-not-allowed disabled:opacity-60;
   }
 }
+
+#shopify-section-footer .HB-Footer-Links ul {
+    list-style: none
+}
+
+#shopify-section-footer .HB-Footer-Links li {
+    padding-bottom: 1.5rem
+}
+
+#shopify-section-footer .HB-Footer-Links li a {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    position: relative
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social li a {
+    padding-left: 15px
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social li a:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+    background-size: cover
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social .HB-Footer-Links-Email:before {
+    width: 12px;
+    height: 10px;
+    background-image: url(/cdn/shop/files/HB_icon_mail.svg?v=1656615877)
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social .HB-Footer-Links-Instagram:before {
+    background-image: url(/cdn/shop/files/HB_Instagram.png?v=1656627548)
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social .HB-Footer-Links-Facebook:before {
+    background-image: url(/cdn/shop/files/HB_Facebood.png?v=1656627548)
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social .HB-Footer-Links-Twitter:before {
+    background-image: url(/cdn/shop/files/HB_Twitter.png?v=1656627548)
+}
+
+#shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social .HB-Footer-Links-Reddit:before {
+    background-image: url(/cdn/shop/files/HB_Reddit.png?v=1656627548)
+}
