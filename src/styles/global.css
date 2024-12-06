@@ -30,9 +30,8 @@
     @apply focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-1;
     @apply disabled:cursor-not-allowed disabled:opacity-60;
   }
-}
 
-#shopify-section-footer .HB-Footer-Links ul {
+  #shopify-section-footer .HB-Footer-Links ul {
     list-style: none
 }
 
@@ -81,3 +80,6 @@
 #shopify-section-footer .HB-Footer-Links .HB-Footer-Links-Social .HB-Footer-Links-Reddit:before {
     background-image: url(/cdn/shop/files/HB_Reddit.png?v=1656627548)
 }
+}
+
+
